@@ -1,0 +1,164 @@
+#post-250{
+	margin-bottom:0px;
+	border-bottom:0px;
+}
+.inputLabel{
+	float:left;
+}
+.inputField{
+	float:left;
+}
+form{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.inputContainer{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	overflow:hidden;
+	margin-bottom:10px;
+	width:255px;
+}
+#submit{
+	width:100px;
+	margin-left:auto;
+	margin-right:auto;
+}
+@media screen and (min-width:700px){
+	table.calendar{ border-left:1px solid #999;margin-left:auto;margin-right:auto; width:500px; height:450px;}
+	tr.calendar-row{}
+	td.calendar-day{font-size:11px;position:relative;}
+	td.calendar-day:hover{background-color:#eceff5;}
+	td.calendar-day:active{}
+	td.calendar-day-np{background:#eee;}
+	td.calendar-day-head{background:#ccc;font-weight:bold;text-align:center;padding:2px;border-bottom:1px solid #999;border-top:1px solid #999;border-right:1px solid #999;height:35px;}
+	div.day-number{background:#999;padding:5px;color:#fff;font-weight:bold;float:right;margin:0px 0px 0 0;width:30px;text-align:center;}
+	td.calendar-day,td.calendar-day-np{padding:0px;border-bottom:1px solid #999;border-right:1px solid #999; width:70px;}
+	td.calendar-day label{width:100%; height:100%; display:block;}
+	td.calendar-day label:hover{background-color:#ccccff !important;}
+	td.calendar-day input{display:none;}
+	td.calendar-day > input[type="radio"]:checked + label{
+		//background-color:#bbbbee !important;
+		border: 0.5px solid black;
+	}
+}
+@media screen and (max-width:700px){
+	table.calendar{ border-left:1px solid #999;margin-left:auto;margin-right:auto; width:100%;}
+	tr.calendar-row{}
+	td.calendar-day{font-size:11px;position:relative;padding:5px;}
+	td.calendar-day:hover{background:#eceff5;}
+	td.calendar-day:active{}
+	td.calendar-day-np{background:#eee;}
+	td.calendar-day-head{font-weight:bold;text-align:center;padding:2px;border-top:1px solid #999;border-right:1px solid #999;height:35px;border-bottom:1px solid #999;background:#ccc;}
+	div.day-number{padding:0px;color:#888;font-weight:bold;margin-right:auto;margin-left:auto; height:100%; text-align:center;}
+	td.calendar-day,td.calendar-day-np{padding:0px;border-bottom:1px solid #999;border-right:1px solid #999; width:50px;}
+	td.calendar-day label{width:100%; height:100%; display:block; padding:5px;}
+	td.calendar-day input{display:none;}
+	td.calendar-day > input[type="radio"]:checked + label{
+		background-color:#cccccc;
+	}
+}
+#facilitators > label > input{
+	display:none;
+}
+#facilitators > label > input + img{
+  border:2px solid transparent;
+}
+#facilitators > label > input:checked + img{
+	border:2px solid #888;
+}
+#facilitators{
+	width:600px;
+}
+#facilitators > img{
+	width:150px;
+	height:150px;
+}
+#facilitators > label > p{
+	font-size:16px;
+	margin-top:-10px;
+}
+#facilitators > label{
+	width:150px;
+	height:150px;
+	display:inline-block;
+	margin:0px;
+	text-align:center;
+}
+label img{
+	display:inline-block;
+}
+@media screen and (max-width:700px){
+	#facilitators{
+		width:200px;
+	}
+	#facilitators img{
+		width:100px;
+		height:100px;
+	}
+	#facilitators > label{
+		width:100px;
+		height:100px;
+	}
+	#facilitators > label > p{
+		font-size:10px;
+		margin-top:-10px;
+	}
+}
+#MonthSelector{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	display:none;
+	text-align:center;
+}
+#MonthSelector > label > input{
+	display:none;
+}
+#MonthSelector > label > input + p{
+	border:2px solid transparent;
+	background-color:#eee;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#MonthSelector > label > input:checked + p{
+	border:2px solid #888;
+}
+@media screen and (max-width:700px){
+	#MonthSelector{
+		width:200px;
+	}
+}
+#timeSelector{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.timeOptionU > p{
+	border:2px solid transparent;
+	background-color:#777777;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#eee;
+}
+.timeOptionA > input{
+	visibility:hidden;
+}
+.timeOptionA > input + p{
+	border:2px solid transparent;
+	background-color:#eee;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.timeOptionA > input:checked + p{
+	border:2px solid #888;
+}
+@media screen and (max-width:700px){
+	#timeSelector{
+		width:200px;
+	}
+}
+}
