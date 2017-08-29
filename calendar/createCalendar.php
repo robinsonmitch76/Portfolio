@@ -25,9 +25,9 @@ function draw_calendar($month,$year,$coach){
 	$aptInDay = array_fill(1, $days_in_month, 0);
 
 	$servername = "localhost";
-	$username = "i3688079_wp2";
-	$password = "H]~qYlYTLLnb#J4Z0i[43^@2";
-	$dbname = "i3688079_scheduling";
+	$username = "not providing to github";
+	$password = "not providing to github";
+	$dbname = "not providing to github";
 	
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
