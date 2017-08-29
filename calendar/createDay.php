@@ -6,9 +6,9 @@
 	$day = $_POST["day"];
 	
 	$servername = "localhost";
-	$username = "i3688079_wp2";
-	$password = "H]~qYlYTLLnb#J4Z0i[43^@2";
-	$dbname = "i3688079_scheduling";
+	$username = "not providing to github";
+	$password = "not providing to github";
+	$dbname = "not providing to github";
 	
 	$timeFilled = array_fill(9, 17, false);
 	
